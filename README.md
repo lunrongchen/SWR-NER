@@ -52,18 +52,21 @@ https://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/publikationen/20
   
 #Requirement:
 conda create --name=tensorflow_env python=2.7
-- To activate this environment, use:
-- $ source activate tensorflow_env
--
-- To deactivate this environment, use:
-- $ source deactivate
+
 source activate tensorflow_env
+
 pip install unidecode
+
 pip install Theano
+
 pip install keras==1.0.0
+
+source deactivate
 
 
 #Command:
 python CreateWordList.py
+
 python CreateSubCorpus.py vocabulary.txt embeddings/GermEval.vocab
+
 python NER_Skeleton.py
