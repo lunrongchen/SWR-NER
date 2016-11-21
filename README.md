@@ -50,3 +50,20 @@ Our system for the GermEval-2014 competition achieved a score of F1=75.1%
 https://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/publikationen/2014/2014_GermEval_Nested_Named_Entity_Recognition_with_Neural_Networks.pdf
 
   
+#Requirement:
+conda create --name=tensorflow_env python=2.7
+- To activate this environment, use:
+- $ source activate tensorflow_env
+-
+- To deactivate this environment, use:
+- $ source deactivate
+source activate tensorflow_env
+pip install unidecode
+pip install Theano
+pip install keras==1.0.0
+
+
+#Command:
+python CreateWordList.py
+python CreateSubCorpus.py vocabulary.txt embeddings/GermEval.vocab
+python NER_Skeleton.py
