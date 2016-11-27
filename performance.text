@@ -1,0 +1,41 @@
+(tensorflow_env) Ben:SWR-NER lunrongchen$ python NER_with_Caseing.py
+Using TensorFlow backend.
+NER with Keras, only token, window size 2, float: float64
+Read in the vocab
+Read in data and create matrices
+Unknowns: 1.32%
+Unknowns: 1.36%
+Unknowns: 1.32%
+Embeddings shape (76738, 100)
+can't determine number of CPU cores: assuming 4
+I tensorflow/core/common_runtime/local_device.cc:25] Local device intra op parallelism threads: 4
+can't determine number of CPU cores: assuming 4
+I tensorflow/core/common_runtime/local_session.cc:45] Local session inter op parallelism threads: 4
+452830  train samples
+5  train dimension
+96483  test samples
+10 epochs
+7075 mini batches
+58.18 sec for training
+1 epoch: F1 on dev: 0.694970, F1 on test: 0.692926
+58.52 sec for training
+2 epoch: F1 on dev: 0.719905, F1 on test: 0.707071
+62.01 sec for training
+3 epoch: F1 on dev: 0.717476, F1 on test: 0.710649
+62.58 sec for training
+4 epoch: F1 on dev: 0.719000, F1 on test: 0.721365
+59.51 sec for training
+5 epoch: F1 on dev: 0.724575, F1 on test: 0.716420
+57.36 sec for training
+6 epoch: F1 on dev: 0.720295, F1 on test: 0.712881
+62.26 sec for training
+7 epoch: F1 on dev: 0.717859, F1 on test: 0.716097
+60.31 sec for training
+8 epoch: F1 on dev: 0.709907, F1 on test: 0.704459
+58.73 sec for training
+9 epoch: F1 on dev: 0.707917, F1 on test: 0.705165
+61.52 sec for training
+10 epoch: F1 on dev: 0.709512, F1 on test: 0.699578
+
+
+
