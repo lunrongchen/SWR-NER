@@ -4,7 +4,7 @@ Reads in our files and outputs all words to a vocabulary file
 @author: Nils Reimers
 """
 
-filenames = ['data/NER-de-test.tsv', 'data/NER-de-dev.tsv', 'data/NER-de-train.tsv']
+filenames = ['new_data/NER-de-test.tsv', 'new_data/NER-de-dev.tsv', 'new_data/NER-de-train.tsv']
 outputfile = 'vocabulary.txt'
 
 words = set()
