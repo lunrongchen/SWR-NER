@@ -1,6 +1,6 @@
 import numpy as np
-path = "glove.6B/glove.6B.50d.txt"
-path_ = "glove.6B/glove.6B.100d.txt"
+path = "embeddings/GloveTwitter_100d.vocab"
+path_ = "embeddings/GloveWiki-100d.vocab"
 file = open(path)
 file_ = open(path_)
 
@@ -36,7 +36,7 @@ for row in file_:
 		item.extend(dic[row[0]])
 		finalresult.append(item)
 
-file = open('glove_50+100.txt','w')
+file = open('embeddings/GloveWikiTwitter_200d.vocab','w')
 for item in finalresult:
 	count = 0
 	for word in item:

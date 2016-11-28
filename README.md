@@ -15,7 +15,7 @@ source deactivate
 #Command:
 python CreateWordList.py
 
-python CreateSubCorpus.py vocabulary.txt embeddings/GermEval.vocab
+python CreateSubCorpus.py dictionary.txt embeddings/GermEval.vocab
 
 python NER_with_Caseing.py
 
