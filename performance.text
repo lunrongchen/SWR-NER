@@ -39,3 +39,43 @@ I tensorflow/core/common_runtime/local_session.cc:45] Local session inter op par
 
 
 
+##########################################################################
+(tensorflow_env) Ben:SWR-NER lunrongchen$ python NER_with_GloveWiki-100d.py
+Using TensorFlow backend.
+NER with Keras, only token, window size 2, float: float64
+Read in the vocab
+Read in data and create matrices
+Unknowns: 7.68%
+Unknowns: 7.19%
+Unknowns: 7.57%
+Embeddings shape (400002, 100)
+can't determine number of CPU cores: assuming 4
+I tensorflow/core/common_runtime/local_device.cc:25] Local device intra op parallelism threads: 4
+can't determine number of CPU cores: assuming 4
+I tensorflow/core/common_runtime/local_session.cc:45] Local session inter op parallelism threads: 4
+38857  train samples
+5  train dimension
+7164  test samples
+10 epochs
+607 mini batches
+10.17 sec for training
+1 epoch: F1 on dev: 0.333333, F1 on test: 0.390879
+5.22 sec for training
+2 epoch: F1 on dev: 0.482051, F1 on test: 0.522911
+5.03 sec for training
+3 epoch: F1 on dev: 0.492147, F1 on test: 0.540541
+5.18 sec for training
+4 epoch: F1 on dev: 0.500000, F1 on test: 0.528090
+5.00 sec for training
+5 epoch: F1 on dev: 0.564103, F1 on test: 0.569149
+4.61 sec for training
+6 epoch: F1 on dev: 0.528497, F1 on test: 0.565333
+4.88 sec for training
+7 epoch: F1 on dev: 0.530806, F1 on test: 0.526570
+4.91 sec for training
+8 epoch: F1 on dev: 0.569948, F1 on test: 0.570667
+4.55 sec for training
+9 epoch: F1 on dev: 0.553398, F1 on test: 0.571429
+5.53 sec for training
+10 epoch: F1 on dev: 0.577114, F1 on test: 0.558376
+(tensorflow_env) Ben:SWR-NER lunrongchen$

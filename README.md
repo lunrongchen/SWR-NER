@@ -18,3 +18,26 @@ python CreateWordList.py
 python CreateSubCorpus.py vocabulary.txt embeddings/GermEval.vocab
 
 python NER_with_Caseing.py
+
+
+B-company
+B-facility
+B-geo-loc
+B-movie
+B-musicartist
+B-other
+B-person
+B-product
+B-sportsteam
+B-tvshow
+I-company
+I-facility
+I-geo-loc
+I-movie
+I-musicartist
+I-other
+I-person
+I-product
+I-sportsteam
+I-tvshow
+O
