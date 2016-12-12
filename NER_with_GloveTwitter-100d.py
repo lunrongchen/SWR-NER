@@ -39,7 +39,7 @@ from keras.layers.embeddings import Embedding
 
 
 windowSize = 2 # 2 to the left, 2 to the right
-numHiddenUnits = 100
+numHiddenUnits = 60
 trainFile = 'new_data/NER-de-train.tsv'
 devFile = 'new_data/NER-de-dev.tsv'
 testFile = 'new_data/NER-de-test.tsv'

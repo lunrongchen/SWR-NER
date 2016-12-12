@@ -3,7 +3,7 @@ import re
 import numpy as np 
 from scipy import spatial
 dic = {}
-path = 'RCV1test.txt_100d.vocab'
+path = 'RCV1testTagOutput.txt_100d.vocab'
 file = open(path)
 pattern_key = r'[a-zA-Z\s]*'
 pattern_num = r'[-0-9.]*'
@@ -28,10 +28,11 @@ for row in file:
 				numbers.append(float(num))
 			except:
 				continue
-	dic[key] = numbers
+	if len(numbers) == 100:
+	    dic[key] = numbers
 
 dicc = {}
-path = 'RCV1Subset0.txt_100d.vocab'
+path = 'RCV1Subset.txt_100d.vocab'
 file = open(path)
 count = 0
 for row in file:
@@ -53,11 +54,13 @@ for row in file:
 				numbers.append(float(num))
 			except:
 				continue
-	dicc[key] = numbers
+	if len(numbers) == 100:
+	    dicc[key] = numbers
 
 distance = 0
 for keys in dicc:
 	if dic.has_key(keys):
 		dist = 1 - spatial.distance.cosine(dicc[keys],dic[keys])
 		distance = distance + dist
+print path
 print distance

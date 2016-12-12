@@ -31,7 +31,7 @@ string = ''
 for item in ans:
 	string = string + ' ' + item
 
-path = 'RCV1testTagOutput.txt'
+path = 'RCV1testOutput.txt'
 file = open(path,'w')
 for item in string:
 	file.write("%s" % item)

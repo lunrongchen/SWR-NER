@@ -161,3 +161,85 @@ I tensorflow/core/common_runtime/local_session.cc:45] Local session inter op par
 5.99 sec for training
 10 epoch: F1 on dev: 0.600000, F1 on test: 0.578947
 (tensorflow_env) Ben:SWR-NER lunrongchen$
+
+
+
+
+
+
+(tensorflow_env) Ben:SWR-NER lunrongchen$ python NER_with_GloveTwitter-100d.py
+Using TensorFlow backend.
+NER with Keras, only token, window size 2, float: float64
+Read in the vocab
+Read in data and create matrices
+Unknowns: 10.45%
+Unknowns: 9.63%
+Unknowns: 9.88%
+Embeddings shape (1193516, 100)
+can't determine number of CPU cores: assuming 4
+I tensorflow/core/common_runtime/local_device.cc:25] Local device intra op parallelism threads: 4
+can't determine number of CPU cores: assuming 4
+I tensorflow/core/common_runtime/local_session.cc:45] Local session inter op parallelism threads: 4
+38857  train samples
+5  train dimension
+7164  test samples
+10 epochs
+607 mini batches
+26.20 sec for training
+1 epoch: F1 on dev: 0.042254, F1 on test: 0.050000
+5.31 sec for training
+2 epoch: F1 on dev: 0.337209, F1 on test: 0.383901
+4.00 sec for training
+3 epoch: F1 on dev: 0.421622, F1 on test: 0.448864
+4.21 sec for training
+4 epoch: F1 on dev: 0.464865, F1 on test: 0.502793
+4.34 sec for training
+5 epoch: F1 on dev: 0.486772, F1 on test: 0.529248
+4.42 sec for training
+6 epoch: F1 on dev: 0.483146, F1 on test: 0.526316
+4.52 sec for training
+7 epoch: F1 on dev: 0.521277, F1 on test: 0.535912
+4.22 sec for training
+8 epoch: F1 on dev: 0.531401, F1 on test: 0.549618
+4.16 sec for training
+9 epoch: F1 on dev: 0.517766, F1 on test: 0.542553
+4.16 sec for training
+10 epoch: F1 on dev: 0.543590, F1 on test: 0.558266
+(tensorflow_env) Ben:SWR-NER lunrongchen$ python NER_with_GloveTwitter-100d.py
+Using TensorFlow backend.
+NER with Keras, only token, window size 2, float: float64
+Read in the vocab
+Read in data and create matrices
+Unknowns: 10.45%
+Unknowns: 9.63%
+Unknowns: 9.88%
+Embeddings shape (1193516, 100)
+can't determine number of CPU cores: assuming 4
+I tensorflow/core/common_runtime/local_device.cc:25] Local device intra op parallelism threads: 4
+can't determine number of CPU cores: assuming 4
+I tensorflow/core/common_runtime/local_session.cc:45] Local session inter op parallelism threads: 4
+38857  train samples
+5  train dimension
+7164  test samples
+10 epochs
+607 mini batches
+27.03 sec for training
+1 epoch: F1 on dev: 0.302326, F1 on test: 0.349693
+4.49 sec for training
+2 epoch: F1 on dev: 0.441989, F1 on test: 0.486804
+4.36 sec for training
+3 epoch: F1 on dev: 0.515152, F1 on test: 0.542553
+4.01 sec for training
+4 epoch: F1 on dev: 0.535519, F1 on test: 0.552707
+4.23 sec for training
+5 epoch: F1 on dev: 0.598985, F1 on test: 0.604775
+4.06 sec for training
+6 epoch: F1 on dev: 0.582915, F1 on test: 0.585106
+4.23 sec for training
+7 epoch: F1 on dev: 0.580000, F1 on test: 0.592000
+4.13 sec for training
+8 epoch: F1 on dev: 0.542056, F1 on test: 0.558603
+4.23 sec for training
+9 epoch: F1 on dev: 0.531401, F1 on test: 0.560606
+4.28 sec for training
+10 epoch: F1 on dev: 0.547945, F1 on test: 0.565217

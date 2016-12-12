@@ -1,0 +1,344 @@
+Last login: Sat Dec  3 15:19:35 on ttys002
+Ben:~ lunrongchen$ cd Github/SWR-NER/
+Ben:SWR-NER lunrongchen$ source activate tensorflow_env
+(tensorflow_env) Ben:SWR-NER lunrongchen$ python NER_with_GloveWiki-100d-20units.py
+Using TensorFlow backend.
+NER with Keras, only token, window size 2, float: float64
+Read in the vocab
+Read in data and create matrices
+Unknowns: 7.68%
+Unknowns: 7.19%
+Unknowns: 7.57%
+Embeddings shape (400002, 100)
+38857  train samples
+5  train dimension
+7164  test samples
+10 epochs
+607 mini batches
+8.77 sec for training
+1 epoch: F1 on dev: 0.034188, F1 on test: 0.017544
+5.70 sec for training
+2 epoch: F1 on dev: 0.112500, F1 on test: 0.144578
+5.18 sec for training
+3 epoch: F1 on dev: 0.262500, F1 on test: 0.301887
+5.50 sec for training
+4 epoch: F1 on dev: 0.372881, F1 on test: 0.443787
+5.08 sec for training
+5 epoch: F1 on dev: 0.404255, F1 on test: 0.480874
+5.07 sec for training
+6 epoch: F1 on dev: 0.440000, F1 on test: 0.487047
+5.03 sec for training
+7 epoch: F1 on dev: 0.491803, F1 on test: 0.534091
+4.74 sec for training
+8 epoch: F1 on dev: 0.472527, F1 on test: 0.521490
+5.02 sec for training
+9 epoch: F1 on dev: 0.507772, F1 on test: 0.529412
+4.76 sec for training
+10 epoch: F1 on dev: 0.481283, F1 on test: 0.512397
+(tensorflow_env) Ben:SWR-NER lunrongchen$ python NER_with_GloveWiki-100d-40units.py
+Using TensorFlow backend.
+NER with Keras, only token, window size 2, float: float64
+Read in the vocab
+Read in data and create matrices
+Unknowns: 7.68%
+Unknowns: 7.19%
+Unknowns: 7.57%
+Embeddings shape (400002, 100)
+38857  train samples
+5  train dimension
+7164  test samples
+10 epochs
+607 mini batches
+9.09 sec for training
+1 epoch: F1 on dev: 0.063492, F1 on test: 0.076923
+5.17 sec for training
+2 epoch: F1 on dev: 0.262500, F1 on test: 0.305296
+6.24 sec for training
+3 epoch: F1 on dev: 0.437158, F1 on test: 0.494318
+5.26 sec for training
+4 epoch: F1 on dev: 0.443243, F1 on test: 0.519553
+5.05 sec for training
+5 epoch: F1 on dev: 0.479592, F1 on test: 0.532982
+5.01 sec for training
+6 epoch: F1 on dev: 0.519337, F1 on test: 0.559322
+4.97 sec for training
+7 epoch: F1 on dev: 0.523560, F1 on test: 0.559140
+5.02 sec for training
+8 epoch: F1 on dev: 0.524272, F1 on test: 0.526316
+5.14 sec for training
+9 epoch: F1 on dev: 0.527363, F1 on test: 0.548813
+5.24 sec for training
+10 epoch: F1 on dev: 0.532609, F1 on test: 0.544413
+(tensorflow_env) Ben:SWR-NER lunrongchen$ python NER_with_GloveWiki-100d-60units.py
+Using TensorFlow backend.
+NER with Keras, only token, window size 2, float: float64
+Read in the vocab
+Read in data and create matrices
+Unknowns: 7.68%
+Unknowns: 7.19%
+Unknowns: 7.57%
+Embeddings shape (400002, 100)
+38857  train samples
+5  train dimension
+7164  test samples
+10 epochs
+607 mini batches
+8.75 sec for training
+1 epoch: F1 on dev: 0.111111, F1 on test: 0.154882
+5.53 sec for training
+2 epoch: F1 on dev: 0.413793, F1 on test: 0.477612
+5.68 sec for training
+3 epoch: F1 on dev: 0.455556, F1 on test: 0.500000
+5.92 sec for training
+4 epoch: F1 on dev: 0.491979, F1 on test: 0.522222
+5.68 sec for training
+5 epoch: F1 on dev: 0.537634, F1 on test: 0.544444
+5.80 sec for training
+6 epoch: F1 on dev: 0.517413, F1 on test: 0.552632
+5.83 sec for training
+7 epoch: F1 on dev: 0.530000, F1 on test: 0.551724
+5.19 sec for training
+8 epoch: F1 on dev: 0.522613, F1 on test: 0.557029
+5.74 sec for training
+9 epoch: F1 on dev: 0.490000, F1 on test: 0.532637
+5.46 sec for training
+10 epoch: F1 on dev: 0.509804, F1 on test: 0.541237
+(tensorflow_env) Ben:SWR-NER lunrongchen$ python NER_with_GloveWiki-100d-80units.py
+Using TensorFlow backend.
+NER with Keras, only token, window size 2, float: float64
+Read in the vocab
+Read in data and create matrices
+Unknowns: 7.68%
+Unknowns: 7.19%
+Unknowns: 7.57%
+Embeddings shape (400002, 100)
+38857  train samples
+5  train dimension
+7164  test samples
+10 epochs
+607 mini batches
+8.83 sec for training
+1 epoch: F1 on dev: 0.304878, F1 on test: 0.359621
+5.68 sec for training
+2 epoch: F1 on dev: 0.456522, F1 on test: 0.500000
+5.68 sec for training
+3 epoch: F1 on dev: 0.474227, F1 on test: 0.504065
+6.18 sec for training
+4 epoch: F1 on dev: 0.510204, F1 on test: 0.545455
+5.78 sec for training
+5 epoch: F1 on dev: 0.527363, F1 on test: 0.519481
+5.93 sec for training
+6 epoch: F1 on dev: 0.520833, F1 on test: 0.536986
+5.44 sec for training
+7 epoch: F1 on dev: 0.523077, F1 on test: 0.540541
+6.05 sec for training
+8 epoch: F1 on dev: 0.527473, F1 on test: 0.531429
+5.49 sec for training
+9 epoch: F1 on dev: 0.538462, F1 on test: 0.551020
+5.31 sec for training
+10 epoch: F1 on dev: 0.567164, F1 on test: 0.550265
+(tensorflow_env) Ben:SWR-NER lunrongchen$ python NER_with_GloveWiki-100d-100units.py
+Using TensorFlow backend.
+NER with Keras, only token, window size 2, float: float64
+Read in the vocab
+Read in data and create matrices
+Unknowns: 7.68%
+Unknowns: 7.19%
+Unknowns: 7.57%
+Embeddings shape (400002, 100)
+38857  train samples
+5  train dimension
+7164  test samples
+10 epochs
+607 mini batches
+9.32 sec for training
+1 epoch: F1 on dev: 0.360248, F1 on test: 0.417722
+6.46 sec for training
+2 epoch: F1 on dev: 0.454545, F1 on test: 0.482759
+5.85 sec for training
+3 epoch: F1 on dev: 0.502732, F1 on test: 0.531429
+5.34 sec for training
+4 epoch: F1 on dev: 0.528497, F1 on test: 0.559140
+5.36 sec for training
+5 epoch: F1 on dev: 0.518919, F1 on test: 0.547945
+5.60 sec for training
+6 epoch: F1 on dev: 0.534759, F1 on test: 0.547945
+5.25 sec for training
+7 epoch: F1 on dev: 0.527919, F1 on test: 0.520833
+5.50 sec for training
+8 epoch: F1 on dev: 0.515789, F1 on test: 0.539510
+5.69 sec for training
+9 epoch: F1 on dev: 0.554455, F1 on test: 0.551020
+5.32 sec for training
+10 epoch: F1 on dev: 0.545455, F1 on test: 0.543081
+(tensorflow_env) Ben:SWR-NER lunrongchen$ python NER_with_GloveWiki-100d-120units.py
+Using TensorFlow backend.
+NER with Keras, only token, window size 2, float: float64
+Read in the vocab
+Read in data and create matrices
+Unknowns: 7.68%
+Unknowns: 7.19%
+Unknowns: 7.57%
+Embeddings shape (400002, 100)
+38857  train samples
+5  train dimension
+7164  test samples
+10 epochs
+607 mini batches
+8.95 sec for training
+1 epoch: F1 on dev: 0.370370, F1 on test: 0.431746
+5.85 sec for training
+2 epoch: F1 on dev: 0.483092, F1 on test: 0.532663
+6.23 sec for training
+3 epoch: F1 on dev: 0.500000, F1 on test: 0.533333
+5.95 sec for training
+4 epoch: F1 on dev: 0.546392, F1 on test: 0.576923
+6.19 sec for training
+5 epoch: F1 on dev: 0.534653, F1 on test: 0.538860
+5.91 sec for training
+6 epoch: F1 on dev: 0.547368, F1 on test: 0.565097
+5.84 sec for training
+7 epoch: F1 on dev: 0.540000, F1 on test: 0.527704
+5.92 sec for training
+8 epoch: F1 on dev: 0.567164, F1 on test: 0.571429
+6.13 sec for training
+9 epoch: F1 on dev: 0.546341, F1 on test: 0.555844
+5.99 sec for training
+10 epoch: F1 on dev: 0.536585, F1 on test: 0.543147
+(tensorflow_env) Ben:SWR-NER lunrongchen$ python NER_with_GloveWiki-100d-140units.py
+Using TensorFlow backend.
+NER with Keras, only token, window size 2, float: float64
+Read in the vocab
+Read in data and create matrices
+Unknowns: 7.68%
+Unknowns: 7.19%
+Unknowns: 7.57%
+Embeddings shape (400002, 100)
+38857  train samples
+5  train dimension
+7164  test samples
+10 epochs
+607 mini batches
+9.23 sec for training
+1 epoch: F1 on dev: 0.369048, F1 on test: 0.437690
+6.07 sec for training
+2 epoch: F1 on dev: 0.421687, F1 on test: 0.468750
+6.25 sec for training
+3 epoch: F1 on dev: 0.529730, F1 on test: 0.552113
+6.46 sec for training
+4 epoch: F1 on dev: 0.560847, F1 on test: 0.587912
+6.18 sec for training
+5 epoch: F1 on dev: 0.548223, F1 on test: 0.547872
+6.19 sec for training
+6 epoch: F1 on dev: 0.544503, F1 on test: 0.560440
+6.39 sec for training
+7 epoch: F1 on dev: 0.557214, F1 on test: 0.563158
+6.01 sec for training
+8 epoch: F1 on dev: 0.504673, F1 on test: 0.533666
+6.30 sec for training
+9 epoch: F1 on dev: 0.536585, F1 on test: 0.542636
+6.16 sec for training
+10 epoch: F1 on dev: 0.473430, F1 on test: 0.474490
+(tensorflow_env) Ben:SWR-NER lunrongchen$ python NER_with_GloveWiki-100d-160units.py
+Using TensorFlow backend.
+NER with Keras, only token, window size 2, float: float64
+Read in the vocab
+Read in data and create matrices
+Unknowns: 7.68%
+Unknowns: 7.19%
+Unknowns: 7.57%
+Embeddings shape (400002, 100)
+38857  train samples
+5  train dimension
+7164  test samples
+10 epochs
+607 mini batches
+9.26 sec for training
+1 epoch: F1 on dev: 0.444444, F1 on test: 0.501393
+6.34 sec for training
+2 epoch: F1 on dev: 0.497354, F1 on test: 0.549451
+6.39 sec for training
+3 epoch: F1 on dev: 0.505263, F1 on test: 0.538462
+6.20 sec for training
+4 epoch: F1 on dev: 0.521277, F1 on test: 0.544444
+5.79 sec for training
+5 epoch: F1 on dev: 0.537634, F1 on test: 0.559557
+5.74 sec for training
+6 epoch: F1 on dev: 0.460000, F1 on test: 0.498701
+5.89 sec for training
+7 epoch: F1 on dev: 0.533333, F1 on test: 0.543353
+6.46 sec for training
+8 epoch: F1 on dev: 0.538071, F1 on test: 0.566845
+5.92 sec for training
+9 epoch: F1 on dev: 0.525253, F1 on test: 0.529101
+5.54 sec for training
+10 epoch: F1 on dev: 0.531915, F1 on test: 0.546961
+(tensorflow_env) Ben:SWR-NER lunrongchen$ python NER_with_GloveWiki-100d-180units.py
+Using TensorFlow backend.
+NER with Keras, only token, window size 2, float: float64
+Read in the vocab
+Read in data and create matrices
+Unknowns: 7.68%
+Unknowns: 7.19%
+Unknowns: 7.57%
+Embeddings shape (400002, 100)
+38857  train samples
+5  train dimension
+7164  test samples
+10 epochs
+607 mini batches
+10.11 sec for training
+1 epoch: F1 on dev: 0.410811, F1 on test: 0.464183
+6.47 sec for training
+2 epoch: F1 on dev: 0.462428, F1 on test: 0.511765
+6.63 sec for training
+3 epoch: F1 on dev: 0.488889, F1 on test: 0.518950
+6.41 sec for training
+4 epoch: F1 on dev: 0.512077, F1 on test: 0.543081
+5.96 sec for training
+5 epoch: F1 on dev: 0.542714, F1 on test: 0.568421
+6.51 sec for training
+6 epoch: F1 on dev: 0.522613, F1 on test: 0.537634
+6.46 sec for training
+7 epoch: F1 on dev: 0.527919, F1 on test: 0.535519
+6.42 sec for training
+8 epoch: F1 on dev: 0.543689, F1 on test: 0.557292
+6.00 sec for training
+9 epoch: F1 on dev: 0.514286, F1 on test: 0.506329
+5.93 sec for training
+10 epoch: F1 on dev: 0.522613, F1 on test: 0.542553
+(tensorflow_env) Ben:SWR-NER lunrongchen$ python NER_with_GloveWiki-100d-200units.py
+Using TensorFlow backend.
+NER with Keras, only token, window size 2, float: float64
+Read in the vocab
+Read in data and create matrices
+Unknowns: 7.68%
+Unknowns: 7.19%
+Unknowns: 7.57%
+Embeddings shape (400002, 100)
+38857  train samples
+5  train dimension
+7164  test samples
+10 epochs
+607 mini batches
+9.45 sec for training
+1 epoch: F1 on dev: 0.436782, F1 on test: 0.470238
+6.59 sec for training
+2 epoch: F1 on dev: 0.518919, F1 on test: 0.548571
+6.61 sec for training
+3 epoch: F1 on dev: 0.523560, F1 on test: 0.548913
+6.75 sec for training
+4 epoch: F1 on dev: 0.488372, F1 on test: 0.491018
+6.14 sec for training
+5 epoch: F1 on dev: 0.527919, F1 on test: 0.543011
+6.40 sec for training
+6 epoch: F1 on dev: 0.522167, F1 on test: 0.517949
+6.95 sec for training
+7 epoch: F1 on dev: 0.530806, F1 on test: 0.537313
+7.04 sec for training
+8 epoch: F1 on dev: 0.543590, F1 on test: 0.508021
+6.81 sec for training
+9 epoch: F1 on dev: 0.519231, F1 on test: 0.524173
+6.73 sec for training
+10 epoch: F1 on dev: 0.524272, F1 on test: 0.506394
+(tensorflow_env) Ben:SWR-NER lunrongchen$
