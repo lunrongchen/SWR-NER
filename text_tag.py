@@ -17,8 +17,6 @@ for row in file:
 			count = count + 1
 			final_ans.extend(pos_tags)
 
-		if count > 1000:
-			break
 	except Exception,e:
 		continue
 
